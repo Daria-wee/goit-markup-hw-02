@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto","Raleway", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;  
 }
 
 ul {
@@ -18,9 +20,7 @@ button {
     font-family: inherit;
 }
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
+
     margin: -1px;
     border: 0;
     padding: 0;
@@ -36,45 +36,62 @@ button {
         height: 72px;
 }
 .logo-header {
+    font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    line-height: 1.17;
 }
 
 .logo-header-part {
+    font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+    line-height: 1.17;
 }
 
 .header-menu {}
 
 .header-menu-item {
-font-weight: 500;
+    color: #2e2f42;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+
+    
+}
+.header-menu-item:hover {
+    color: #404bbf;
+}
+.header-menu-item:focus {
+    color: #404bbf;
 }
 
 .header-contacts-item {
+    color: #434455;
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+    
 }
 .header-contacts-list {
 
 }
-
-
+.header-contacts-item:hover {
+    color: #404bbf;
+}
+.header-contacts-item:focus {
+    color: #404bbf;
+}
 
 address > ul {
     display: flex;
@@ -91,10 +108,10 @@ nav {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    line-height: 1.07;
 }
 
 .hero-btn {
@@ -105,8 +122,14 @@ nav {
     letter-spacing: 0.04em;
     color: #fff;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
-
+.hero-btn:hover {
+    background-color: #404BBF;
+}
+.hero-btn:focus {
+    background-color: #404BBF;
+}
 /* -------features --------------*/
 .features {}
 
@@ -139,15 +162,18 @@ nav {
 .team-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 
 .wrapper {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .tean-item-image {}
 
@@ -181,7 +207,10 @@ nav {
         color: #2e2f42;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    line-height: 1.11;
+    text-transform: capitalize;
+}
 
 .portfolio-item {}
 
@@ -209,18 +238,20 @@ nav {
 }
 
 .logo-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
 }
 
 .logo-footer-part {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
